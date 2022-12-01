@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.reservbox{
+    position: relative;
+    background-color: #fff;
+    width: 35%;
+    height: 615px;
+    margin: 10px 52px 50px 750px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+body{
+    background-image: url(../images/reser2.jpg);
+}
+
+.reservbox h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #fb911f;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+h1 span{
+    color: #fb911f;
+}
+
+.reservbox .p1{
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.reservbox .p2{
+    font-size: 2em;
+    font-weight: 300;
+    margin-left: 0px;
+    word-spacing: 2px;
+    display: inline-flex;
+}
+
+#buttonp{
+    padding: 2px 2px 4px 4px;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1.6em;
+    cursor: pointer;
+    word-spacing: 3px;
+    position: fixed;
+    margin-left: 5px;
+    display: inline-flex;
+}
+
+#buttonm{
+    padding: 2px 2px 4px 4px;
+    justify-content: center;
+    justify-items: center;
+    font-size: 0.75em;
+    cursor: pointer;
+    word-spacing: 3px;
+    margin-left: 300px;
+    position: fixed;
+    display: inline-flex;
+}
+
+.reservbox .checkbox{
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+}
+
+.reservbox .checkbox .p3{
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#box{
+    cursor: pointer;
+}
+
+.checkbox input[type="text"]{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.checkbox ::placeholder{
+    font-size: 20px;
+}
+
+.reservbox .checkbox .p4{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paiement .pay{
+    font-size: 1em;
+    color: #fff;
+    background: #fb911f;
+    padding: 20px 70px;
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.paiement .pay:hover{
+    color: #000;
+}
+
+.reservbox .pp{
+    font-size: 2em;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 10px;
+    word-spacing: 2px;
+    display: inline-flex;
+}
+
+.ppp{
+    display: inline-flex;
+}
+
+

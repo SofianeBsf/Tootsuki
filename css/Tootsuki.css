@@ -1,0 +1,497 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+p{
+    font-weight: 300;
+    color: #111;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    margin-top: -10px;
+}
+
+.logo span{
+    color: #fb911f;
+}
+
+.entete{
+    display: flex;
+    position: relative;
+}
+
+.entete li{
+    list-style: none;
+}
+
+.entete a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.reserve{
+    padding: 10px 20px;
+    background-color: #fb911f;
+    margin-top: -10px;
+}
+
+.reserve:hover{
+    background: #d87710;
+    transition: ease-out;
+}
+
+header .entete li a:hover{
+    color: #fb911f;
+    border-bottom: 2px solid #fb911f;
+}
+
+.banniere{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/pageheader-banner.jpg);
+    background-size: cover;
+}
+
+.banniere .div1{
+    max-width: 70%;
+    text-align: center;
+}
+
+.banniere .div1 h2{
+    color: #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+.div1 p:nth-child(2){
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.bouton1{
+    font-size: 1em;
+    color: #fff;
+    background: #fb911f;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+.bouton1:hover{
+    background: #d87710;
+    transition: ease-out;
+    letter-spacing: 4px;
+}
+
+.bouton2{
+    font-size: 1em;
+    color: #fff;
+    background: #525252;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+.bouton2:hover{
+    background: #454444;
+    transition:ease-out ;
+    letter-spacing: 4px;
+}
+
+.apropos{
+    padding: 100px;
+}
+
+.div3{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div3 .div2{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3 .div2 h2{
+    margin-bottom: 20px;
+}
+
+.titreapropos{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+
+.titreapropos span{
+    color: #fb911f;
+    font-size: 1.5em;
+    font-weight: 700px;
+}
+
+.div5{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu{
+    margin-top: -100px;
+}
+
+.menu .div1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.menu .div1 .box{
+    width: 250px;
+    margin: 20px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0,0,0,0.8);
+}
+
+.menu .div1 .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.menu .div1 .box .imbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu .div1 .box .textbox{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+
+}
+
+.menu .div1 .box .textbox h3{
+    font-weight: 400;
+}
+
+.bvoirtt{
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.div5 .titreexpert{
+    margin-top: 200px;
+    color: #111;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+
+.div5 .titreexpert span{
+    color: #fb911f;
+    font-size: 1.5em;
+    font-weight: 700px;
+}
+
+.expert{
+    margin-top: -100px;
+}
+
+.expert .div1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.expert .div1 .box{
+    width: 250px;
+    margin: 15px;
+}
+.expert .div1 .box img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+}
+
+.expert .div1 .textbox{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+}
+
+.expert .div1 .textbox h3{
+    font-weight: 400;
+}
+
+.temoignage{
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.temoignage .div1{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.temoignage .div1 .box{
+    width: 340px;
+    margin: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.temoignage .div1 .box .imbox{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.temoignage .div1 .box .imbox img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.temoignage .div1 .box .textbox{
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+.temoignage .div1 .box .textbox h3{
+    color: #fb911f;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.temoignage .div5 .titreexpert,.ptem{
+    color: #fff;
+}
+
+.temoignage .div5 .titreexpert{
+    margin-top: 50px;
+}
+
+.contact{
+    background-image: url(../images/img-form.jpg);
+    background-size: fixed;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    width: 100%;
+}
+
+.contact .contactform{
+    padding: 50px 50px;
+    background: #fff;
+    max-width: 500px;
+    box-shadow: 5px 15px 5px rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+
+.contactform h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contactform .inputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactform .inputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background: #fb911f;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    max-width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactform .inputboite input,textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+
+.contact .titrecontact{
+    font-size: 2em;
+}
+
+.contact .titrenoir{
+    text-align: center;
+    position: relative;
+}
+
+.contact .titrenoir p{
+    margin-bottom: 50px;
+}
+
+
+.contact .titrecontact span{
+    color: #fb911f;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.copyright{
+    padding: 20px 40px;
+    border-top: 2px solid rgba(0,0,0,0.1);
+    background: rgba(228,222,222,);
+}
+
+.copyright p:nth-child(1){
+    color: #333;
+    text-align: center;
+}
+
+.copyright a{
+    color: #fb911f;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.h6cont{
+    margin-bottom: 100px;
+    color: beige;
+}
+
+.h6form{
+    text-align: center;
+    margin-top: 100px;
+}
+
+header.sticky{
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0, 0.05);
+}
+
+header.sticky .logo{
+    color: #000;
+}
+
+header.sticky .entete li a{
+    color: #000;
+}
+
+header.sticky .entete li a:hover{
+    color: #fb911f;
+    border-bottom: 2px solid #fb911f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
